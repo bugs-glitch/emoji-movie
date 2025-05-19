@@ -1,0 +1,435 @@
+{
+  "fonts": {
+    "google": {
+      "families": ["Raleway:500,900"]
+    }
+  },
+  "text-font": "'Raleway', sans-serif",
+  "accent-color": "#0047ba",
+  "agegate": true,
+  "agegateUnderageMessage": "We're sorry. You must be at least 13 years of age to continue.",
+  "agegateMobileMessage": "Your age is verified. Click on any social links to continue.",
+  "agegateMonthError": "Please select a Month",
+  "agegateDayError": "Please select a Day",
+  "agegateYearError": "Please select a Error",
+  "social": {
+    "items": {
+      "facebook": {
+        "visible": true,
+        "link": "https://www.facebook.com/emojimovie",
+        "style": {},
+        "track": {
+          "action": "trackOutboundClick",
+          "param": "followfacebook_button"
+        }
+      },
+      "twitter": {
+        "visible": true,
+        "link": "https://twitter.com/emojimovie",
+        "style": {},
+        "track": {
+          "action": "trackOutboundClick",
+          "param": "followtwitter_button"
+        }
+      },
+      "youtube": {
+        "visible": true,
+        "link": "https://www.youtube.com/user/sonypictures",
+        "style": {},
+        "track": {
+          "action": "trackOutboundClick",
+          "param": "followyoutube_button"
+        }
+      },
+      "instagram": {
+        "visible": true,
+        "link": "https://www.instagram.com/emojimovie/",
+        "style": {},
+        "track": {
+          "action": "trackOutboundClick",
+          "param": "followinstagram_button"
+        }
+      }
+    },
+    "style": {
+      "borderLeftColor": "#d3d3d3"
+    }
+  },
+  "header": {
+    "visible": true,
+    "logo-file": "logo.png",
+    "social-button-color": "#464646",
+    "style": {
+      "backgroundColor": "white",
+      "borderRightColor": "#d3d3d3"
+    },
+    "social-button-hover-style": {
+      "fill": "#0047ba"
+    }
+  },
+  "nav": {
+    "visible": true,
+    "link-style": {
+      "color": "black",
+      "fontWeight": 900
+    },
+    "link-hover-style": {
+      "color": "#0047ba"
+    }
+  },
+  "meta": {
+    "title": "The Emoji Movie - Official Movie Website | Sony Pictures"
+  },
+  "menu": {
+    "homepage": {
+      "track": {
+        "action": "trackPageView",
+        "param": "main.html"
+      }
+    },
+    "tickets": {
+      "visible": false,
+      "label": "Tickets",
+      "external": "https://sonypictures.net/",
+      "track": {
+        "action": "trackPageView",
+        "param": "tickets.html"
+      }
+    },
+    "videos": {
+      "visible": true,
+      "label": "Videos",
+      "track": {
+        "action": "trackPageView",
+        "param": "video.html"
+      }
+    },
+    "about": {
+      "visible": true,
+      "label": "About",
+      "track": {
+        "action": "trackPageView",
+        "param": "about.html"
+      }
+    },
+    "gallery": {
+      "visible": true,
+      "label": "Gallery",
+      "track": {
+        "action": "trackPageView",
+        "param": "gallery.html"
+      }
+    },
+    "cast": {
+      "visible": true,
+      "label": "Cast & Crew",
+      "track": {
+        "action": "trackPageView",
+        "param": "castandcrew.html"
+      }
+    },
+    "features": {
+      "visible": true,
+      "label": "MEET THE CHARACTERS",
+      "track": {
+        "action": "trackPageView",
+        "param": "meetthechars.html"
+      }
+    },
+    "game1": {
+      "visible": false,
+      "label": "g1",
+      "external": "",
+      "track": {
+        "action": "trackPageView",
+        "param": "game1menu.html"
+      }
+    },
+    "game2": {
+      "visible": false,
+      "label": "g2",
+      "external": "",
+      "track": {
+        "action": "trackPageView",
+        "param": "game2menu.html"
+      }
+    }
+  },
+   "hero": {
+    "visible": true,
+    "type": "video",
+    "muteaudio": false,
+    "poster-file": "poster.jpg",
+    "files": ["video_bg.mp4", "video_bg.webm"]
+  },
+  "reviews": {
+    "visible": false,
+    "style": {
+      "backgroundColor": "rgba(0, 0, 0, 0.6)"
+    },
+    "content-style": {
+      "color": "#fff"
+    },
+    "author-style": {
+      "color": "#0047ba"
+    },
+    "delay": 5000,
+    "items": [
+      {
+        "visible": true,
+        "content": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "author": "Proin eget - quam tincidunt"
+      },
+      {
+        "visible": true,
+        "content": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "author": "Proin eget - quam tincidunt"
+      },
+      {
+        "visible": true,
+        "content": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "author": "Proin eget - quam tincidunt"
+      }
+    ]
+  },
+  "videos": {
+    "visible": true,
+    "traileronload": false,
+    "background-image-file": "videos-background.jpg",
+    "heading": "Videos",
+    "heading-style": {
+      "color": "white"
+    },
+    "videos": [
+      { "visible": false, "type": "youtube", "id": "", "track": { "action": "trackVideo", "param": "trailer2.html" } },
+      { "visible": true, "type": "youtube", "id": "Rd85FEdJfTw", "track": { "action": "trackVideo", "param": "trailer1.html" } },
+      { "visible": false, "type": "youtube", "id": "", "thumbnail": "video-1.jpg", "track": { "action": "trackVideo", "param": "trailer1.html" } },
+      { "visible": false, "type": "local", "thumbnail": "video-1.jpg", "poster": "video-1.png", "files": ["video-1.mp4", "video-1.webm"], "track": { "action": "trackVideo", "param": "trailer3.html" } }
+    ],
+    "next-video-track": {
+      "action": "trackPageView",
+      "param": "videonext.html"
+    },
+    "prev-video-track": {
+      "action": "trackPageView",
+      "param": "videoprev.html"
+    },
+    "social-icon-color": "#0047ba",
+    "social-icon-hover-style": {
+      "borderColor": "black",
+      "background": "black"
+    },
+    "twitter-share-message": "Check out this video",
+    "active-video-thumbnail-color": "#0047ba",
+    "arrow-left-file": "arrowL.png",
+    "arrow-right-file": "arrowR.png"
+  },
+  "about": {
+    "visible": true,
+    "style": {
+      "backgroundColor": "white",
+      "line-height": "1.4",
+      "fontWeight": 700
+    },
+    "heading-style": {
+    	"font-size" : "32px",
+    	"line-height": "0.9",
+    	"margin-bottom" : "-5px" 
+    },
+    "subheading-style": {
+      "line-height": "2.8",
+      "color": "#0047ba",
+      "fontWeight": 900
+    },
+    "description-style": {
+      "color": "black"
+    },
+    "main-photo-file": "about-main.jpg",
+    "secondary-photo-file": "about-secondary.jpg",
+    "heading": "ABOUT THE EMOJI MOVIE",
+    "description": "The Emoji Movie unlocks the never-before-seen secret <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_world.png'> inside your <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_phone.png'>. Hidden within the messaging app is Textopolis, a bustling <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_city.png'> where all your favorite emojis live, hoping to be selected by the <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_phone.png'>’s user. In this <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_world.png'>, each emoji has only one facial expression – except for Gene (T.J. Miller), an exuberant emoji who was born without a filter and is bursting with multiple <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_grinning.png'> <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_eyes_closed.png'> <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_angry.png'> <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_tears.png'>. Determined to become “normal” like the other emojis, Gene enlists the help of his handy best friend Hi-5 <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_hi5.png'> (James Corden) and the notorious code breaker emoji Jailbreak (Anna Faris). Together, they embark on an epic “app-venture” through the apps on the <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_phone.png'>, each its own wild and fun <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_world.png'>, to find the Code that will fix Gene. But when a greater <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_danger.png'> threatens the phone, the fate of all emojis depends on these three unlikely friends who must save their world before it’s <img style='margin-bottom:-3px;' height='18px' src='static/img/about/emoji_x.png'> forever. Directed by Tony Leondis. Written by Tony Leondis & Eric Siegel and Mike White. Produced by Ben Waisbren & Michelle Raimo Kouyate.",
+    "in-theaters": {
+      "release-date": "2017-07-28",
+      "text-default": "Only in cinemas",
+      "text-tomorrow": "Only in cinemas",
+      "text-now": "Only in cinemas"
+
+    }
+  },
+  "gallery": {
+    "visible": true,
+    "style": {},
+    "heading-style": {
+      "color": "white"
+    },
+    "social-icon-hover-style": {
+      "borderColor": "#0047ba",
+      "background": "#0047ba"
+    },
+    "next-gallery-track": {
+      "action": "trackPageView",
+      "param": "gallerynext.html"
+    },
+    "prev-gallery-track": {
+      "action": "trackPageView",
+      "param": "galleryprev.html"
+    },
+    "twitter-share-message": "Check out this photo",
+    "arrow-left-file": "arrowL.png",
+    "arrow-right-file": "arrowR.png",
+    "heading": "Gallery",
+    "photos": [
+      { "visible": true, "photo": "gallery-photo-1.jpg", "description": "Photo 1" },
+      { "visible": true, "photo": "gallery-photo-2.jpg", "description": "Photo 2" },
+      { "visible": true, "photo": "gallery-photo-3.jpg", "description": "Photo 3" },
+      { "visible": true, "photo": "gallery-photo-4.jpg", "description": "Photo 4" },
+      { "visible": true, "photo": "gallery-photo-5.jpg", "description": "Photo 5" }
+    ]
+  },
+  "cast-and-crew": {
+    "visible": true,
+    "style": {},
+    "background-image-file": "cast-and-crew-background.jpg",
+    "heading": "Cast & Crew",
+    "subheading": "",
+    "heading-style": {
+      "color": "white"
+    },
+    "subheading-style": {
+      "color": "#0047ba"
+    },
+    "person-row-style": {
+      "color": "#ffc628",
+      "fontWeight": 900
+    },
+    "columns": [
+      [
+        { "heading": "DIRECTED BY", "content": [ "TONY LEONDIS" ], "style": { "margin-bottom": "57px", "font-size": "19px" } },
+        { "heading": "WRITTEN BY", "content": [ "TONY LEONDIS & ERIC SIEGEL", "and MIKE WHITE" ], "style": { "font-size": "19px" } }
+      ],
+      [
+        { "heading": "PRODUCED BY", "content": [ "MICHELLE RAIMO KOUYATE" ], "style": { "font-size": "19px" } },
+        { "heading": "EXECUTIVE PRODUCER", "content": [ "BEN WAISBREN" ], "style": { "font-size": "19px" } }
+      ],
+      [
+        { "heading": "CAST", "content": [ "T.J. MILLER", "JAMES CORDEN", "ANNA FARIS", "MAYA RUDOLPH", "STEVEN WRIGHT", "JENNIFER COOLIDGE", "JAKE T. AUSTIN", "CHRISTINA AGUILERA", "SOFIA VERGARA", "and SIR PATRICK STEWART"], "style": { "font-size": "19px" } }
+      ]
+    ]
+  },
+  "features": {
+    "visible": true,
+    "style": {},
+    "items": [
+      {
+        "visible": true,
+        "title": "GENE",
+        "subtitle": "The Emoji with a Thousand Faces. He’s a ball of emotion who needs to realize he’s not the problem, but the solution.",
+        "link": "",
+        "image": "feature-1.jpg"
+      },
+      {
+        "visible": true,
+        "title": "HI-5",
+        "subtitle": "Gene's Right-Hand Man. Regaining his fame is the name of the game until he meets his first real friend.",
+        "link": "",
+        "image": "feature-2.jpg"
+      },
+      {
+        "visible": true,
+        "title": "JAILBREAK",
+        "subtitle": "The Rebel Emoji. A computer nerd hiding a secret.",
+        "link": "",
+        "image": "feature-3.jpg"
+      },
+        {
+        "visible": true,
+        "title": "POOP",
+        "subtitle": "A favorite Emoji. He's a strong softie.",
+        "link": "",
+        "image": "feature-4.jpg"
+      },
+        {
+        "visible": true,
+        "title": "SMILER",
+        "subtitle": "The Cheerful Devil. She’s evil, she’s menacing, she’s always smiling.",
+        "link": "",
+        "image": "feature-5.jpg"
+      }
+    ]
+  },
+  "footer": {
+    "visible": true,
+    "style": {
+      "backgroundColor": "black",
+      "color": "#dedede"
+    },
+    "link-hover-style": {
+      "color": "#0047ba"
+    },
+    "legalStyle": {
+      "backgroundColor": "#0047ba",
+      "color": "white"
+    },
+    "links": [
+      {
+        "visible": false,
+        "label": "Legal",
+        "url": "#",
+        "legal-rollover": true
+      },
+      {
+        "visible": true,
+        "label": "Privacy Policy",
+        "url": "http://www.sonypictures.net/corp/privacy.html"
+      },
+       {
+        "visible": true,
+        "label": "Children's Privacy Policy",
+        "url": "http://www.sonypictures.com/corp/childrensprivacy.html"
+      },
+        {
+        "visible": true,
+        "label": "Terms of Use",
+        "url": "http://www.sonypictures.com/corp/tos.html"
+      },
+      {
+        "visible": true,
+        "label": "Cookie Consent Tool",
+        "url": "https://info.evidon.com/pub_info/15556?v=1&nt=1&nw=true "
+      },
+      {
+        "visible": true,
+        "label": "Cookies",
+        "url": "http://www.sonypictures.net/corp/privacy.html#information-we-collect-automatically"
+      },
+      {
+        "visible": true,
+        "label": "Ad Choices",
+        "url": "http://www.sonypictures.com/corp/privacy.html#choices"
+      },
+      {
+        "visible": false,
+        "label": "Worldwide Release Dates",
+        "url": "http://www.SpiderManHomecoming.net/releasedates"
+      },
+      {
+        "visible": true,
+        "label": "sonypictures.net",
+        "url": "http://www.sonypictures.net/"
+      },
+      {
+        "visible": true,
+        "label": "CA Privacy Rights",
+        "url": "http://www.sonypictures.com/corp/privacy.html#privacy-rights"
+      }
+    ],
+    "copyright": "©2017 Sony Pictures Digital Productions Inc. All Rights Reserved. ”emoji“™ is a trademark of emoji company GmbH used under license.",
+    "logo-files": [
+      "spa.png",
+      "columbia.png",
+      "sony-pictures.png"
+    ]
+  },
+  "cookie-tracking-code": "<!-- Ghostery Inc tag cid: 2796 pid: 15556 --><script type=\"text/javascript\">(function() { var hn = document.createElement('script'); hn.type = 'text/javascript'; hn.async = true; hn.setAttribute('data-ev-hover-pid', 15556); hn.setAttribute('data-ev-hover-ocid', 2796); hn.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'c.betrad.com/geo/h1.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hn, s); })();</script>",
+  "click-tracking-code": ""
+}
